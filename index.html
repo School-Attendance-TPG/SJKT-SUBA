@@ -239,7 +239,7 @@ const db = getFirestore(firebaseApp);
 
         .input-group input {
             width: 100%;
-            padding: 14px 18px;
+            padding: 14px 45px 14px 18px;
             border: 2px solid rgba(255,255,255,0.1);
             border-radius: 12px;
             background: rgba(0,0,0,0.2);
@@ -257,12 +257,14 @@ const db = getFirestore(firebaseApp);
         }
 
         .input-group i {
-            position: absolute;
-            right: 15px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: rgba(255,255,255,0.4);
-        }
+    position: absolute;
+    right: 18px;
+    bottom: 16px;           
+    transform: none;      
+    color: rgba(255,255,255,0.4);
+    font-size: 1.1rem;
+    pointer-events: none; 
+}
 
         .btn-premium {
             width: 100%;
